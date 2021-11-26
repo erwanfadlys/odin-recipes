@@ -1,1 +1,2 @@
 # WELCOME TO ANOTHER ODIN PROJECT
+Hello Fellow Student!
