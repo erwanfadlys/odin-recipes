@@ -1,0 +1,32 @@
+h1{
+    font-size: 75px;
+    font-family: cursive;
+    color: rgba(211, 130, 9, 0.719);
+    text-align: center;
+}
+body { 
+    background: rgb(238, 139, 11)
+}
+.content {
+    max-width: 500px;
+    margin: 0 auto;
+    background:rgb(57, 63, 58);
+    padding: 150px;
+}
+h3, h4 {
+    font-size: 25px;
+    text-align: center;
+    color: orange;
+    max-width: 250px;
+    margin: 0 auto;
+    background:rgb(16, 56, 23);
+    padding: 40px;
+}
+a:visited { 
+    text-decoration: none; 
+    color: orange; 
+}
+a:hover {
+    text-decoration: none; 
+    color:yellow; 
+}
