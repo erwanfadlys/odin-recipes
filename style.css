@@ -14,9 +14,8 @@ body {
     padding: 150px;
 }
 img{
-    margin-right: auto;
-    margin-right: auto;
     width: 100%;
+    height: auto;
 }
 h3, h4 {
     font-size: 25px;
