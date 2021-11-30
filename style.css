@@ -24,7 +24,6 @@ body {
    width: 100%;
    height: auto;
    border: 5px solid rgba(255, 136, 0, 0.658);
-   
    box-sizing: border-box;
 }
 
@@ -47,11 +46,37 @@ h4 {
     background:rgb(16, 56, 23);
     padding: 40px;
 }
-a:visited { 
+
+ul{
+    
+    background-color: rgb(247, 233, 212);
+    border:rgba(8, 89, 92, 0.685) solid;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    background-color: rgb(57, 63, 58);
+    box-sizing: content-box;
+    padding: 1em ;
+}
+
+
+.navi_bar {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+a:visited  { 
     text-decoration: none; 
     color: orange; 
 }
 a:hover {
     text-decoration: none; 
     color:yellow; 
+    font-size: 1.5em;
+}
+.Contact{
+    font-family: "Helvetica Neue",Helvetica,Arial;
 }
