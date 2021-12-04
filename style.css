@@ -54,7 +54,7 @@ a:hover {
     border: 1px rgb(148, 216, 174) solid;
     border-radius: 31px 50px;
     background-color: rgba(9, 241, 40, 0.315);
-    margin: 2px;
+    margin: 2px; 
     padding: 1em;
 }
 .content {
