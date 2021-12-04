@@ -60,17 +60,20 @@ a:hover {
 .content {
     display: flex;
     justify-content: space-between;
-
+    flex-direction: column;
 
     
 }
 h1{
     font-size: 100px;
     font-family: cursive;
-    color: rgba(7, 116, 241, 0.966);
+    color: rgba(168, 60, 9, 0.966);
     text-align: center;
     padding: 30px;
-    border: 10px rgba(20, 159, 240, 0.507) solid;
+    border: 10px rgba(74, 63, 228, 0.507) solid;
+    border-radius: 2em 2rem;
+    color: rgb(85, 6, 6);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 body { 
     background: rgb(70, 126, 79)
