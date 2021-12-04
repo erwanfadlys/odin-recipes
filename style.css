@@ -1,11 +1,67 @@
+
+
+.container {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited  {  
+    color: orange; 
+}
+a:hover {
+    color:yellow; 
+    font-size: 1.2em;
+    border: 2px rgb(123, 187, 123) solid;
+}
+.contact{
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    font-size: 1.2em;
+    display: flex;
+    gap: 2em;
+    list-style: none;
+    align-items: center;
+}
+
+.home{
+    border: 1px rgb(148, 216, 174) solid;
+    border-radius: 31px 50px;
+    background-color: rgba(9, 241, 40, 0.315);
+    margin: 2px;
+    padding: 1em;
+}
+.email{
+    border: 1px rgb(148, 216, 174) solid;
+    border-radius: 31px 50px;
+    background-color: rgba(9, 241, 40, 0.315);
+    margin: 2px;
+    padding: 1em;
+}
+.phone {
+    border: 1px rgb(148, 216, 174) solid;
+    border-radius: 31px 50px;
+    background-color: rgba(9, 241, 40, 0.315);
+    margin: 2px;
+    padding: 1em;
+}
+.test{
+    border: 1px rgb(148, 216, 174) solid;
+    border-radius: 31px 50px;
+    background-color: rgba(9, 241, 40, 0.315);
+    margin: 2px;
+    padding: 1em;
+}
 .content {
-    max-width: 450px;
-    margin: auto;
-    background:rgb(57, 63, 58);
-    border:rgb(16, 56, 23) solid;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-bottom: 200px;
+    display: flex;
+    justify-content: space-between;
+
+
     
 }
 h1{
@@ -17,7 +73,7 @@ h1{
     border: 10px rgba(20, 159, 240, 0.507) solid;
 }
 body { 
-    background: rgb(139, 122, 100)
+    background: rgb(70, 126, 79)
 }
 
 .img-responsive{
@@ -45,38 +101,4 @@ h4 {
     margin: 0 auto;
     background:rgb(16, 56, 23);
     padding: 40px;
-}
-
-ul{
-    
-    background-color: rgb(247, 233, 212);
-    border:rgba(8, 89, 92, 0.685) solid;
-}
-
-li {
-    list-style-type: none;
-    display: inline-block;
-    background-color: rgb(57, 63, 58);
-    box-sizing: content-box;
-    padding: 20px ;
-}
-
-
-.navi_bar {
-    margin-top: 1px;
-    margin-bottom: 1px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-}
-a:visited  { 
-    text-decoration: none; 
-    color: orange; 
-}
-a:hover {
-    text-decoration: none; 
-    color:yellow; 
-    font-size: 1.5em;
-}
-.Contact{
-    font-family: "Helvetica Neue",Helvetica,Arial;
 }
